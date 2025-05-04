@@ -1,11 +1,12 @@
 <template>
   <div>
+    <h1>Welcome to uor playground equipment collection</h1>
     <!-- Section 1: Cards -->
     <section class="py-10 bg-gray-50">
     <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
       <!-- Card 1 -->
       <div class="bg-white border border-gray-200 rounded shadow p-6 text-center flex flex-col justify-between">
-        <img src="/products/playground-equipment-inter-play.jpg" alt="Playground Equipment" class="w-full h-48 object-contain mx-auto mb-4" />
+        <img src="/products/playground-equipment-inter-play.jpg" alt="Playground Equipment outdoor playground equipment for children safety" class="w-full h-48 object-contain mx-auto mb-4" />
         <h3 class="text-xl font-semibold text-green-800 mb-2">Playground Equipment</h3>
         <p class="text-sm text-gray-700 mb-4">
           Outdoor facilities design for safety and durability. Our products provide lots of fun for everyone, no matter how old you are, you could find it very interested to feel still young and free. We are creating a friendly space offering the solutions of the utmost quality. We help in creating interesting places with numerous functional and aesthetic attractions. See playground equipment and equipment for children's playgrounds. 
@@ -268,5 +269,15 @@
 </template>
 
 <script setup>
+// SEO: Page metadata
+useHead({
+  title: 'Main | Inter-Play',
+  meta: [
+    {
+      name: 'description',
+      content: 'Photoes of products installed playground equipment by Inter-Play. Discover our devices used on final playgrounds.'
+    }
+  ]
+})
 
 </script>

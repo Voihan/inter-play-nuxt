@@ -81,7 +81,7 @@
 const hideMiddle = ref(false)
 
 const handleScroll = () => {
-  hideMiddle.value = window.scrollY > 50
+  hideMiddle.value = window.scrollY > 100
 }
 
 // Every time the scroll down/up is triggered, the handleScroll function is triggered.

@@ -1,3 +1,15 @@
+<script setup>
+// SEO: Page metadata
+useHead({
+  title: 'Blog | Inter-Play',
+  meta: [
+    {
+      name: 'description',
+      content: 'Photo gallery of events Inter-Play. Discover our devices used on final playgrounds.'
+    }
+  ]
+})
+</script>
 <template>
   <div class="bg-white">
     <!-- Header -->
@@ -59,3 +71,4 @@
     </div>
   </div>
 </template>
+

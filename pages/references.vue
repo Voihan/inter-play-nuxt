@@ -25,6 +25,19 @@
 import { onMounted } from 'vue';
 import L from 'leaflet';
 
+
+// SEO: Page metadata
+useHead({
+  title: 'Map | Inter-Play',
+  meta: [
+    {
+      name: 'description',
+      content: 'Map of installed playground equipment by Inter-Play. Discover our devices used on final playgrounds.'
+    }
+  ]
+})
+
+
 onMounted(() => {
   const map = L.map('map').setView([52.0, 19.0], 4);
 
@@ -76,6 +89,6 @@ onMounted(() => {
 @import "leaflet/dist/leaflet.css";
 
 #map {
-  z-index: 0; /* To not overlap other elements */
+  z-index: 0;
 }
 </style>
